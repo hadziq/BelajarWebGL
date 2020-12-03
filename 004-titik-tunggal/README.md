@@ -1,0 +1,36 @@
+KONSEP:
+
+- API:
+  - VERTEX_SHADER
+  - FRAGMENT_SHADER
+  - drawArrays
+  - POINTS
+  - LINK_STATUS
+  - VALIDATE_STATUS
+  - SHADER_TYPE
+  - DELETE_STATUS
+  - COMPILE_STATUS
+  - createProgram
+  - attachShader
+  - linkProgram
+  - getProgramParameter
+  - getProgramInfoLog
+  - deleteProgram
+  - deleteShader
+  - isShader
+  - isProgram
+  - getAttachedShaders
+  - getShaderSource
+  - validateProgram
+  - getProgramParameter
+  - getProgramInfoLog
+  - createShader
+  - shaderSource
+  - compileShader
+  - getShaderParameter
+  - getShaderInfoLog
+  - useProgram
+- Shaders
+  - gl_Position
+  - gl_PointSize
+  - gl_FragColor
