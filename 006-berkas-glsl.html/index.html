@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkas GLSL Terpisah</title>
+</head>
+<body>
+    <canvas id="glcanvas" width="640" height="480">
+        Browser Anda tidak mendukung elemen Canvas HTML5
+    </canvas>
+
+    <!-- Shaders -->
+    <script name="shader" data-src="vertex.glsl" data-type="vertex" data-version="v1"></script>
+    <script name="shader" data-src="fragment.glsl" data-type="fragment" data-version="v1"></script>
+
+    <!-- Pustaka pemrosesan sinyal yang digunakan untuk Method Dispatching -->
+    <script src="libs/signals.js" type="text/javascript"></script>
+
+    <!-- Pustaka umum -->
+    <script src="libs/glUtils.js" type="text/javascript"></script>
+
+    <!-- Aplikasi WebGL kita akan kita utak-atik di sini -->
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
