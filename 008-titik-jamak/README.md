@@ -1,3 +1,3 @@
 KONSEP:
 
-- Kanvas jamak
+- Titik-titik pada kanvas jamak
