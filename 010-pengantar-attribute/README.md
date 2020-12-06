@@ -1,0 +1,3 @@
+KONSEP:
+
+- Pengantar Attribute
