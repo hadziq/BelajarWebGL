@@ -1,0 +1,3 @@
+KONSEP:
+
+- Kanvas jamak
