@@ -2,7 +2,7 @@
 
     var glUtils = {
 
-        VERSION: '0.0.1',
+        VERSION: '0.0.2',
 
         checkWebGL: function(canvas) {
             
@@ -69,7 +69,6 @@
             // gl.isProgram(program)
             // gl.isShader(shader)
             console.log(gl.isShader(vertexShader));
-            //console.log(gl.isShader(program));
             console.log(gl.isProgram(program));
 
             // API:
